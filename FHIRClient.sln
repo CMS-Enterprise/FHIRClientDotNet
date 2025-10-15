@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRClientBundleSubmission", "FHIRClientBundleSubmission\FHIRClientBundleSubmission.csproj", "{DDC3043A-6266-4BA4-8B7C-A175A20C3FEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRClientConsoleApp", "FHIRClientConsoleApp\FHIRClientConsoleApp.csproj", "{940AE049-8A86-427F-9B69-99C7492085C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRClientUnitTests", "FHIRClientUnitTests\FHIRClientUnitTests.csproj", "{D61A141A-8447-42CC-B9B8-9D1263D52DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRClientAuthenticationAPI", "FHIRClientAuthenticationAPI\FHIRClientAuthenticationAPI.csproj", "{B47A6600-86D6-432B-AD2A-C87A2F1024D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRClientUtilities", "FHIRClientUtilities\FHIRClientUtilities.csproj", "{36456573-E325-4710-8D73-6235883592E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRClientPresignedUrlAPI", "FHIRClientPresignedUrlAPI\FHIRClientPresignedUrlAPI.csproj", "{C5D5AC6B-C595-411A-A029-A5545D1DCE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRClientUploadClinicalDocumentAPI", "FHIRClientUploadClinicalDocumentAPI\FHIRClientUploadClinicalDocumentAPI.csproj", "{ED5DA2DF-8E0E-48FB-A537-BB6646DE26CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRClientNotificationRetrieval", "FHIRClientNotificationRetrieval\FHIRClientNotificationRetrieval.csproj", "{14A85B6B-11F8-4175-86CE-B999EAEF4F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRClientDocumentRetrievalAPI", "FHIRClientDocumentRetrievalAPI\FHIRClientDocumentRetrievalAPI.csproj", "{4425C8FB-C91B-4D25-9847-FD058B3F94A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FHIRClientPractitionerAPI", "FHIRClientPractitionerAPI\FHIRClientPractitionerAPI.csproj", "{2EB74B9F-32BF-4409-98D1-353D497CA82B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDC3043A-6266-4BA4-8B7C-A175A20C3FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC3043A-6266-4BA4-8B7C-A175A20C3FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC3043A-6266-4BA4-8B7C-A175A20C3FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC3043A-6266-4BA4-8B7C-A175A20C3FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940AE049-8A86-427F-9B69-99C7492085C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940AE049-8A86-427F-9B69-99C7492085C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940AE049-8A86-427F-9B69-99C7492085C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940AE049-8A86-427F-9B69-99C7492085C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61A141A-8447-42CC-B9B8-9D1263D52DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61A141A-8447-42CC-B9B8-9D1263D52DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61A141A-8447-42CC-B9B8-9D1263D52DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61A141A-8447-42CC-B9B8-9D1263D52DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47A6600-86D6-432B-AD2A-C87A2F1024D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47A6600-86D6-432B-AD2A-C87A2F1024D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47A6600-86D6-432B-AD2A-C87A2F1024D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47A6600-86D6-432B-AD2A-C87A2F1024D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36456573-E325-4710-8D73-6235883592E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36456573-E325-4710-8D73-6235883592E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36456573-E325-4710-8D73-6235883592E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36456573-E325-4710-8D73-6235883592E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D5AC6B-C595-411A-A029-A5545D1DCE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D5AC6B-C595-411A-A029-A5545D1DCE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D5AC6B-C595-411A-A029-A5545D1DCE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D5AC6B-C595-411A-A029-A5545D1DCE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5DA2DF-8E0E-48FB-A537-BB6646DE26CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5DA2DF-8E0E-48FB-A537-BB6646DE26CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5DA2DF-8E0E-48FB-A537-BB6646DE26CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5DA2DF-8E0E-48FB-A537-BB6646DE26CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A85B6B-11F8-4175-86CE-B999EAEF4F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A85B6B-11F8-4175-86CE-B999EAEF4F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A85B6B-11F8-4175-86CE-B999EAEF4F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A85B6B-11F8-4175-86CE-B999EAEF4F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4425C8FB-C91B-4D25-9847-FD058B3F94A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4425C8FB-C91B-4D25-9847-FD058B3F94A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4425C8FB-C91B-4D25-9847-FD058B3F94A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4425C8FB-C91B-4D25-9847-FD058B3F94A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB74B9F-32BF-4409-98D1-353D497CA82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB74B9F-32BF-4409-98D1-353D497CA82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB74B9F-32BF-4409-98D1-353D497CA82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB74B9F-32BF-4409-98D1-353D497CA82B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC16432A-35DC-4511-BB6E-CF1509C1DB69}
+	EndGlobalSection
+EndGlobal

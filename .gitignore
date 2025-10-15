@@ -1,0 +1,73 @@
+# Ignore Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Rider
+.idea/
+
+# Visual Studio workspace folders (in root and subprojects)
+**/.vs/
+
+# Build results (bin and obj across all projects)
+**/bin/
+**/obj/
+
+# Test results and coverage
+TestResults/
+*.coverage
+*.coveragexml
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.vsmdi
+
+# Log and backup files
+*.log
+*.bak
+*.backup
+
+# Auto-generated database files
+*.mdf
+*.ldf
+*.ndf
+
+# ASP.NET and EF-specific
+App_Data/
+*.dbmdl
+
+# Publish profiles
+*.PublishSettings
+*.publish.xml
+
+# NuGet packages and artifacts
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.assets.json
+artifacts/
+
+# Resharper and other JetBrains
+_ReSharper*/
+*.DotSettings.user
+
+# NCrunch
+.ncrunch*
+*.ncrunchproject
+
+# StyleCop
+StyleCopReport.xml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
